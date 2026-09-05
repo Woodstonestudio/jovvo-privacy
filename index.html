@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JoVVo — Gizlilik Politikası & Destek</title>
+<style>
+  :root {
+    --bg: #0a0c0b; --card: #121512; --text: #e8f5ef; --muted: #8ba99b;
+    --accent: #18f2b2; --border: rgba(255,255,255,0.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65; padding: 0 20px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 0 80px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .logo { font-size: 34px; font-weight: 800; color: var(--accent); letter-spacing: -1px; }
+  .tag { color: var(--muted); font-size: 15px; margin-top: 6px; }
+  .lang { text-align: center; margin: 24px 0 40px; }
+  .lang a {
+    color: var(--accent); text-decoration: none; font-weight: 600;
+    border: 1px solid var(--border); padding: 8px 18px; border-radius: 999px; font-size: 14px;
+  }
+  section {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 16px; padding: 26px 28px; margin-bottom: 20px;
+  }
+  h2 { color: var(--accent); font-size: 20px; margin: 0 0 14px; }
+  h3 { font-size: 16px; margin: 22px 0 6px; }
+  p, li { color: var(--text); font-size: 15px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 13px; }
+  .updated { color: var(--muted); font-size: 13px; text-align: center; margin-top: 30px; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 56px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">JoVVo</div>
+    <div class="tag">Yapay Zeka Fitness & Beslenme Koçu</div>
+  </header>
+
+  <div class="lang">
+    <a href="#en">English ↓</a>
+  </div>
+
+  <!-- ============ TÜRKÇE ============ -->
+  <section>
+    <h2>Gizlilik Politikası</h2>
+    <p>JoVVo ("uygulama", "biz") gizliliğinize önem verir. Bu politika, hangi verileri neden topladığımızı ve nasıl kullandığımızı açıklar.</p>
+
+    <h3>Topladığımız veriler</h3>
+    <ul>
+      <li><strong>Hesap bilgileri:</strong> E-posta adresi ve şifre (hesabınızı oluşturmak ve giriş için).</li>
+      <li><strong>Profil & sağlık verileri:</strong> Ad, yaş, cinsiyet, boy, kilo, hedefler, aktivite seviyesi, antrenman branşı, alerji/diyet tercihleri ve antrenman kayıtları (size özel program ve öneriler için).</li>
+      <li><strong>Öğün fotoğrafları:</strong> Kalori ve makro analizi için çektiğiniz yemek fotoğrafları.</li>
+      <li><strong>Geri bildirim:</strong> Bize gönderdiğiniz öneri/eleştiri mesajları.</li>
+    </ul>
+
+    <h3>Verileri nasıl kullanıyoruz</h3>
+    <ul>
+      <li>Size kişiselleştirilmiş antrenman programları ve beslenme önerileri sunmak.</li>
+      <li>Öğün fotoğraflarını analiz etmek. <span class="muted">Bu analiz için fotoğraf ve ilgili veriler, güvenli bir sunucu aracılığıyla yapay zeka sağlayıcımıza (OpenAI) gönderilir; OpenAI bu verileri model eğitimi için kullanmaz.</span></li>
+      <li>İlerlemenizi kaydetmek ve cihazlar arası senkronize etmek (Supabase altyapısı).</li>
+      <li>İsteğe bağlı hatırlatma bildirimleri göndermek.</li>
+    </ul>
+
+    <h3>Üçüncü taraflar</h3>
+    <ul>
+      <li><strong>Supabase</strong> — hesap ve veri saklama.</li>
+      <li><strong>OpenAI</strong> — öğün fotoğrafı ve metin analizi.</li>
+      <li><strong>RevenueCat & Apple</strong> — abonelik yönetimi ve ödeme (ödeme bilgilerinizi biz görmeyiz, Apple işler).</li>
+    </ul>
+    <p>Verilerinizi kimseye satmayız ve reklam amacıyla paylaşmayız. Sizi reklam ağları arasında takip etmeyiz.</p>
+
+    <h3>Verilerinizin silinmesi</h3>
+    <p>Hesabınızı ve tüm verilerinizi silmek isterseniz <a href="mailto:admin@woodstonestudio.com">admin@woodstonestudio.com</a> adresine yazın; talebinizi 30 gün içinde yerine getiririz.</p>
+
+    <h3>Çocukların gizliliği</h3>
+    <p>JoVVo 13 yaş altındaki çocuklara yönelik değildir ve bilerek onlardan veri toplamaz.</p>
+  </section>
+
+  <section>
+    <h2>Abonelik Koşulları</h2>
+    <ul>
+      <li>JoVVo Premium, aylık veya yıllık otomatik yenilenen abonelik olarak sunulur.</li>
+      <li>3 günlük ücretsiz deneme süresi vardır. Deneme bitmeden iptal edilirse ücret alınmaz.</li>
+      <li>Ödeme, satın alma onayında App Store hesabınızdan tahsil edilir.</li>
+      <li>Abonelik, dönem bitiminden en az 24 saat önce iptal edilmezse otomatik yenilenir.</li>
+      <li>Aboneliği istediğiniz zaman iPhone <em>Ayarlar → Apple Kimliği → Abonelikler</em> üzerinden yönetebilir veya iptal edebilirsiniz.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Destek</h2>
+    <p>Her türlü soru, sorun veya öneriniz için bize ulaşın:</p>
+    <p><strong>E-posta:</strong> <a href="mailto:admin@woodstonestudio.com">admin@woodstonestudio.com</a></p>
+    <p class="muted">Genellikle 1-2 iş günü içinde yanıt veriyoruz.</p>
+  </section>
+
+  <hr />
+
+  <!-- ============ ENGLISH ============ -->
+  <a id="en"></a>
+  <section>
+    <h2>Privacy Policy</h2>
+    <p>JoVVo ("the app", "we") cares about your privacy. This policy explains what data we collect, why, and how we use it.</p>
+
+    <h3>Data we collect</h3>
+    <ul>
+      <li><strong>Account info:</strong> Email address and password (to create your account and sign in).</li>
+      <li><strong>Profile & health data:</strong> Name, age, gender, height, weight, goals, activity level, training discipline, allergies/diet preferences and workout logs (to build your personalized program and tips).</li>
+      <li><strong>Meal photos:</strong> Food photos you take, for calorie and macro analysis.</li>
+      <li><strong>Feedback:</strong> Suggestion/critique messages you send us.</li>
+    </ul>
+
+    <h3>How we use data</h3>
+    <ul>
+      <li>To provide personalized training programs and nutrition guidance.</li>
+      <li>To analyze meal photos. <span class="muted">For this analysis, the photo and related data are sent through a secure server to our AI provider (OpenAI); OpenAI does not use this data for model training.</span></li>
+      <li>To save your progress and sync it across devices (Supabase infrastructure).</li>
+      <li>To send optional reminder notifications.</li>
+    </ul>
+
+    <h3>Third parties</h3>
+    <ul>
+      <li><strong>Supabase</strong> — account and data storage.</li>
+      <li><strong>OpenAI</strong> — meal photo and text analysis.</li>
+      <li><strong>RevenueCat & Apple</strong> — subscription management and payment (we never see your payment details; Apple handles them).</li>
+    </ul>
+    <p>We never sell your data or share it for advertising. We do not track you across ad networks.</p>
+
+    <h3>Deleting your data</h3>
+    <p>To delete your account and all data, email <a href="mailto:admin@woodstonestudio.com">admin@woodstonestudio.com</a>; we will fulfill your request within 30 days.</p>
+
+    <h3>Children's privacy</h3>
+    <p>JoVVo is not intended for children under 13 and does not knowingly collect data from them.</p>
+  </section>
+
+  <section>
+    <h2>Subscription Terms</h2>
+    <ul>
+      <li>JoVVo Premium is offered as an auto-renewing monthly or yearly subscription.</li>
+      <li>There is a 3-day free trial. If cancelled before the trial ends, no charge is made.</li>
+      <li>Payment is charged to your App Store account upon purchase confirmation.</li>
+      <li>The subscription auto-renews unless cancelled at least 24 hours before the end of the period.</li>
+      <li>You can manage or cancel anytime via iPhone <em>Settings → Apple ID → Subscriptions</em>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Support</h2>
+    <p>For any question, issue or suggestion, contact us:</p>
+    <p><strong>Email:</strong> <a href="mailto:admin@woodstonestudio.com">admin@woodstonestudio.com</a></p>
+    <p class="muted">We typically reply within 1-2 business days.</p>
+  </section>
+
+  <div class="updated">Son güncelleme / Last updated: 2026</div>
+</div>
+</body>
+</html>
